@@ -5,8 +5,8 @@ This extension excludes COBOL quality rules violations that are part of HR Acces
 Only COBOL quality rule violation that is part of a non generated code block will be kept: which means only the UTTB paragraphs. 
 
 Example : 
->	000006 UTTBPUUU-JA0U63IN-FK.                                            TBPUUU 
->	000007           IF    UJA-FLG-PU = 1                                   TBPUUU 
+>`	000006 UTTBPUUU-JA0U63IN-FK.                                            TBPUUU 
+>`	000007           IF    UJA-FLG-PU = 1                                   TBPUUU 
 	000008           NEXT SENTENCE ELSE GO TO UTTBPUUU-JA0U63IN-FK-FN.      TBPUUU 
 	000009     MOVE        UJA-0-ZYU6-POSADM TO                             TBPUUU 
 	000010                 UJA-4-ZYU6-POSADM                                TBPUUU 
