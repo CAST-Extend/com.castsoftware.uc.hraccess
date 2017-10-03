@@ -5,20 +5,20 @@ This extension excludes COBOL quality rules violations that are part of HR Acces
 Only COBOL quality rule violation that is part of a non generated code block will be kept: which means only the UTTB paragraphs. 
 
 Example : 
-000006 UTTBPUUU-JA0U63IN-FK.                                            TBPUUU
-000007           IF    UJA-FLG-PU = 1                                   TBPUUU
-000008           NEXT SENTENCE ELSE GO TO UTTBPUUU-JA0U63IN-FK-FN.      TBPUUU
-000009     MOVE        UJA-0-ZYU6-POSADM TO                             TBPUUU
-000010                 UJA-4-ZYU6-POSADM                                TBPUUU
-000011     MOVE        UJA-0-ZYU6-CODTRA TO                             TBPUUU
-000012                 UJA-4-ZYU6-CODTRA                                TBPUUU
-000013     MOVE        UJA-0-ZYU6-CODINC TO                             TBPUUU
-000014                 UJA-4-ZYU6-CODINC                                TBPUUU
-000015     MOVE        UJA-0-ZYU6-CATEG1 TO                             TBPUUU
-000016                 UJA-4-ZYU6-CATEG1                                TBPUUU
-000017     MOVE        UJA-0-ZYU6-CATEG2 TO                             TBPUUU
-000018                 UJA-4-ZYU6-CATEG2.                               TBPUUU
-000019 UTTBPUUU-JA0U63IN-FK-FN.    EXIT.                                TBPUUU
+	000006 UTTBPUUU-JA0U63IN-FK.                                            TBPUUU 
+	000007           IF    UJA-FLG-PU = 1                                   TBPUUU 
+	000008           NEXT SENTENCE ELSE GO TO UTTBPUUU-JA0U63IN-FK-FN.      TBPUUU 
+	000009     MOVE        UJA-0-ZYU6-POSADM TO                             TBPUUU 
+	000010                 UJA-4-ZYU6-POSADM                                TBPUUU 
+	000011     MOVE        UJA-0-ZYU6-CODTRA TO                             TBPUUU 
+  000012                 UJA-4-ZYU6-CODTRA                                TBPUUU 
+  000013     MOVE        UJA-0-ZYU6-CODINC TO                             TBPUUU 
+  000014                 UJA-4-ZYU6-CODINC                                TBPUUU 
+  000015     MOVE        UJA-0-ZYU6-CATEG1 TO                             TBPUUU 
+  000016                 UJA-4-ZYU6-CATEG1                                TBPUUU 
+  000017     MOVE        UJA-0-ZYU6-CATEG2 TO                             TBPUUU 
+  000018                 UJA-4-ZYU6-CATEG2.                               TBPUUU 
+  000019 UTTBPUUU-JA0U63IN-FK-FN.    EXIT.                                TBPUUU 
 
 
 This only applies to COBOL quality rules with bookmarks so:
