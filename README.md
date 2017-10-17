@@ -20,6 +20,7 @@ Example :
 000018                 UJA-4-ZYU6-CATEG2.                               TBPUUU 
 000019 UTTBPUUU-JA0U63IN-FK-FN.    EXIT.                                TBPUUU 
 
+![UTTB Paragraph](/UTTB_paragraph.jpg)
 
 This only applies to COBOL quality rules with bookmarks so:
 
