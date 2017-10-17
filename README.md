@@ -56,3 +56,15 @@ This only applies to COBOL quality rules with bookmarks so:
 * Avoid using READ statement without AT END clause
 * Check alphanumeric data before moving them into numeric data
 * Variables defined in Working-Storage section must be initialized before to be read
+
+
+
+CAST dashboard before extension use : 
+TBD
+
+
+CAST dashboard after extension use : 
+TBD 
+
+
+
