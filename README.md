@@ -5,6 +5,7 @@ This extension excludes COBOL quality rules violations that are part of HR Acces
 Only COBOL quality rule violation that is part of a non generated code block will be kept: which means only the UTTB paragraphs. 
 
 Example : 
+
 ![UTTB Paragraph](/UTTB_paragraph.jpg)
 
 This only applies to COBOL quality rules with bookmarks so:
