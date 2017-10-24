@@ -1,5 +1,18 @@
 # com.castsoftware.uc.hraccess
 
+
+# Introduction : 
+
+HR Access is Human Resource Management application. 
+It contains a code generator which generates Cobol code. 
+
+https://www.soprahr.com/
+https://fr.wikipedia.org/wiki/HR_Access
+
+This technical package is deliver "as-is". It has been used in a limited number of situations.
+This package has been tested in CAST 8.2.x 
+
+
 This extension excludes COBOL quality rules violations that are part of HR Access generated code.
 
 Only COBOL quality rule violation that is part of a non generated code block will be kept: which means only the UTTB paragraphs. 
@@ -67,4 +80,12 @@ CAST dashboard after extension use :
 TBD 
 
 
+## TCC configuration
+TBD 
+	
+# TODO 
+to be described 
 
+# How to contribute
+For bugs, feature requests, and contributions contact Thierry Guégan t.guegan@castsoftware.com.
+You may also send a thank you if you find this useful.
