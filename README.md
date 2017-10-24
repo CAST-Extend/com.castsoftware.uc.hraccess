@@ -6,7 +6,6 @@
 HR Access is Human Resource Management application. 
 It contains a code generator which generates Cobol code. 
 
-https://www.soprahr.com/
 https://fr.wikipedia.org/wiki/HR_Access
 
 This technical package is deliver "as-is". It has been used in a limited number of situations.
